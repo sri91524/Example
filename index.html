@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul>li
+        {
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-    <h1>My First Page</h1>
+<section id="headerSection">
+    <h1 id="WelcomeMessage">My First Page</h1>
+    <h1>Second Example</h1>
+    <h4>Testing ~ css properties</h4>
     <h2><strong>Hello 2024_RTT_60</strong></h2>
+    <h3>Am here</h3>
+    <h4>Testing ~ css properties</h4>
+</section>
     <em>Hi</em>
-    <!--this is an example of Pre-->
+<section class="listSelection">    
+        <!--this is an example of Pre-->
     <pre>
         Hi! I am 
         This is good example
     </pre>
+</section>
+
     <!--Here is an example of differnt font alterations-->
     <p>
         <b>This text is bold.</b><br>
@@ -30,7 +46,7 @@
     <!-- Example of section -->
     <section>
         <p>Favorite Color</p>
-        <ul>
+        <ul style="border 3px dotted yellow;">
             <li>Purple</li>
             <li>Pink</li>
         </ul>
@@ -39,7 +55,8 @@
             <li>Sandwich</li>
         </ol>
     </section>
-   <img src="./Example/images/nature.jpg" alt="Blue Bird"/><br>
+    <p>Testing for adjacent sibling</p>
+   <img src="../Example/images/nature.jpg" alt="Blue Bird"/><br>
    <img src="https://images.pexels.com/photos/5967958/pexels-photo-5967958.jpeg" width="200px" alt="Tornado"/><br><br>
    <!-- Anchor tag example -->
    <a href="https://www.yahoo.com">Visit Yahoo</a>
@@ -49,5 +66,27 @@
  <a href="./Pages/About.html">About Us</a>|
  <a href="./Pages/Signin.html">Sign In</a>|
  <a href="./Pages/Signup.html">Sign Up</a>
+
+ <!-- Creating table -->
+  <table>
+    <tr>
+        <th>Favorite Colors</th>
+    </tr>
+    <tr>
+        <td>Pink</td>
+    </tr>
+    <tr>
+        <td>Purple</td>
+    </tr>
+    <tr>
+        <td>Favorite food</td>
+    </tr>
+    <tr>
+        <td>Fruits</td>
+    </tr>
+    <tr>
+        <td>Veggies</td>
+    </tr>
+  </table>
 </body>
 </html>

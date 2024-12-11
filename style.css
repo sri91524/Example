@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+}
+section,p{
+    background-color: ivory;
+}
+section + P{
+    color:blueviolet;
+}
+a
+{
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    padding-left: 20px;
+    border: 2px solid;
+}
+h3{
+    padding:50ox;
+    border:5px dotted greenyellow;
+    margin:13px;
+}
+#WelcomeMessage
+{
+    color:blue;
+}
+h2~h4
+{
+    color:deeppink;
+}
+#headerSection
+{
+    color:darkkhaki;
+}
+.listSelection
+{
+    color:fuchsia;
+}
+a:hover{
+    color:hotpink;
+}
+p::first-line
+{
+    background-color: orangered;
+}
+table, th, td {
+    border: 1px solid black;
+  }
